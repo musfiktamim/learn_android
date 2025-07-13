@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "422949916833",
+    "firebase_url": "https://contactproject-cb82f-default-rtdb.firebaseio.com",
+    "project_id": "contactproject-cb82f",
+    "storage_bucket": "contactproject-cb82f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422949916833:android:a9ddc4d0940f190764a0e0",
+        "android_client_info": {
+          "package_name": "com.example.project_3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwQenu5p19LF_7Berh5l-xQjF2pn1Cq9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

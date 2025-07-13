@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="10dp"
+    android:paddingTop="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ঠিক আছে। এই ব্যাবহার করে নিজের স্কিল আরো ইম্প্রুভ করতে হবে নাইলে ছাটাই হইতে হইবো। টুলস গুলা আছে এগুলা ব্যাবহার করতে জানতে হবে। এগুলা দিয়ে কাজ দ্রুত করার চেষ্টা করতে হবে"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/mypictur"
+        />
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scrollbars="none"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ঠিক আছে। এই ব্যাবহার করে নিজের স্কিল আরো ইম্প্রুভ করতে হবে নাইলে ছাটাই হইতে হইবো। টুলস গুলা আছে এগুলা ব্যাবহার করতে জানতে হবে। এগুলা দিয়ে কাজ দ্রুত করার চেষ্টা করতে হবে ঠিক আছে। এই ব্যাবহার করে নিজের স্কিল আরো ইম্প্রুভ করতে হবে নাইলে ছাটাই হইতে হইবো। টুলস গুলা আছে এগুলা ব্যাবহার করতে জানতে হবে। এগুলা দিয়ে কাজ দ্রুত করার চেষ্টা করতে হবে ঠিক আছে। এই ব্যাবহার করে নিজের স্কিল আরো ইম্প্রুভ করতে হবে নাইলে ছাটাই হইতে হইবো। টুলস গুলা আছে এগুলা ব্যাবহার করতে জানতে হবে। এগুলা দিয়ে কাজ দ্রুত করার চেষ্টা করতে হবে"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+    </ScrollView>
+
+</LinearLayout>
